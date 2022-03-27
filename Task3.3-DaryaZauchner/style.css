@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(.../images/Sky(reduced).jpg;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria;
+}
+
+.container {
+    display: inline-block;
+    max-width: 1146 px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+h1 {
+    color: darkblue;
+    display: block;
+    font-size: large;
+    text-align: left;
+    padding: 14px 17px 14px 17px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+    font-size: small;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    background-color: darkblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: white;
+    font-size: large;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+
+a:hover {
+    background-color: rgb(91, 213, 243);
+}
+
+.left-column {
+    padding: 20px;
+    display: inline-block;
+    width: 754px;
+    vertical-align: middle;
+}
+
+.right-column {
+    padding: 20px;
+    display: inline-block;
+    width: 362px;
+    vertical-align: middle;
+}
+
+.left-column div {
+    border: solid 2 px blue;
+    padding: 19px;
+}
+
+h3 {
+    color: white;
+    font-size: large;
+    padding: 14px 17px 14px 17px;
+    background-color: blue;
+}
+
+h2 {
+    color: white;
+    font-size: large;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    background-color: blue;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: darkblue;
+    padding-bottom: 83??????;
+    padding-top: 83??????;
+    text-align: right;
+}
