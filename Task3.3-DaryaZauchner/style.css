@@ -5,49 +5,43 @@
 }
 
 header {
-    background-image: url(.../images/Sky(reduced).jpg;
-    width: 100%;
+    background-image: url(./images/небо.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Cambria;
+    padding-top: 120px;
+    padding-bottom: 138px;
+    font-family: Roboto;
 }
 
 .container {
     display: inline-block;
     max-width: 1146 px;
     margin: auto;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 h1 {
+    font-family: Roboto;
     color: darkblue;
-    display: block;
-    font-size: large;
+    display: inline-block;
+    font-size: extralarge;
     text-align: left;
     padding: 14px 17px 14px 17px;
 }
 
-p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: grey;
-    font-size: small;
-}
-
 nav {
-    display: inline-block;
-    width: 100%;
     background-color: darkblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Roboto;
+    padding-top: 26px;
+    padding-bottom: 27px;
 }
 
-a {
+.container .Anker {
     color: white;
     font-size: large;
     display: inline-block;
     text-decoration: none;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 5%;
+    padding-left: 5%;
 }
 
 a:hover {
@@ -55,22 +49,66 @@ a:hover {
 }
 
 .left-column {
-    padding: 20px;
+    padding-left: 20px;
     display: inline-block;
-    width: 754px;
-    vertical-align: middle;
+    width: 750px;
+    vertical-align: top;
+    font-size: normal;
 }
 
 .right-column {
-    padding: 20px;
+    padding-left: 40px;
     display: inline-block;
-    width: 362px;
-    vertical-align: middle;
+    width: 360px;
+    vertical-align: top;
 }
 
-.left-column div {
-    border: solid 2 px blue;
-    padding: 19px;
+.Lorem {
+    color: black;
+}
+
+.right-column .Lorem {
+    color: black;
+    text-decoration: underline;
+    font-size: small;
+    display: inline-block;
+    padding: 2%;
+    text-align: left;
+}
+
+.right-column div {
+    border: solid 2px darkblue;
+    display: inline-block;
+    padding: 3%;
+}
+
+.container .right-column,
+div {
+    margin-bottom: 10%;
+}
+
+.container .right-column,
+.left-column {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.right-column div p {
+    font-size: small;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.container .left-column p {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+p {
+    font-family: Roboto;
+    color: black;
+    font-size: normal;
+    padding: 4px;
 }
 
 h3 {
@@ -81,13 +119,14 @@ h3 {
 }
 
 h2 {
-    color: white;
+    color: darkblue;
+    font-family: Roboto;
     font-size: large;
     padding-top: 13px;
     padding-bottom: 15px;
-    background-color: blue;
-    border-top: 2px solid green;
-    border-bottom: 2px solid green;
+    border-top: solid 2px darkblue;
+    border-bottom: solid 2px darkblue;
+    vertical-align: top;
 }
 
 ul {
@@ -96,7 +135,9 @@ ul {
 
 footer {
     background-color: darkblue;
-    padding-bottom: 83??????;
-    padding-top: 83??????;
+    font-size: extrasmall;
+    font-family: Roboto;
+    padding-bottom: 90px;
+    padding-top: 45px;
     text-align: right;
 }
